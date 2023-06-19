@@ -14,7 +14,7 @@
 // alert("la suma de los numeros es: "+ suma)
 
 function personajes(done) {
-    const url= "https://rickandmortyapi.com/api/character";
+    const url= "https://hp-api.onrender.com/api/characters";
 
     fetch(url)
     .then(Resp => Resp.json())
